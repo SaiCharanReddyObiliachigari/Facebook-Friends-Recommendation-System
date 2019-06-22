@@ -16,3 +16,11 @@ data contains two columns source and destination eac edge in graph
 - The Katz centrality for node i is 𝑥𝑖=𝛼∑𝑗[𝐴𝑖𝑗𝑥𝑗+𝛽], Controls the centrality with 𝛼<[1/𝜆𝑚𝑎𝑥].
 - Weight Features 𝑊=1/SQRT[1+|𝑋|]
 
+- FROM THE MODEL I FOUND THE BELOW FEATURES ARE INFLUCING THE MOST FOR THE FRIEND RECOMMENDATION
+- - FOLLOW_BACKS
+- WEIGHT_F1
+- COSINE_FOLLOWERS
+- SHORTEST_PATH
+- INTER_FOLLOWERS
+- WEIGHT_F3
+- WEIGHT_F4

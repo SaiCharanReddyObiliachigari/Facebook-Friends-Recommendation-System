@@ -8,3 +8,4 @@ data contains two columns source and destination eac edge in graph
 - Data columns (total 2 columns):  
 - source_node         int64  
 - destination_node    int64
+Jacard Distance 𝑗=|𝑋∩𝑌||𝑋∪𝑌|

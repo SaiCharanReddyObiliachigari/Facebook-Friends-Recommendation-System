@@ -9,3 +9,9 @@ data contains two columns source and destination eac edge in graph
 - source_node         int64  
 - destination_node    int64
 - Jacard Distance 𝑗=|𝑋∩𝑌|/|𝑋∪𝑌|
+- 𝐶𝑜𝑠𝑖𝑛𝑒𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒=|𝑋∩𝑌|/|𝑋|⋅|𝑌|
+- Adamic/Adar measures is defined as inverted sum of degrees of common neighbours for given two vertices.
+- 𝐴(𝑥,𝑦)=∑𝑢∈𝑁(𝑥)∩𝑁(𝑦)[1/𝑙𝑜𝑔(|𝑁(𝑢)|)]
+- Katz centrality computes the centrality for a node based on the centrality of its neighbors. It is a generalization of the eigenvector centrality. 
+- The Katz centrality for node i is 𝑥𝑖=𝛼∑𝑗[𝐴𝑖𝑗𝑥𝑗+𝛽], Controls the centrality with 𝛼<[1/𝜆𝑚𝑎𝑥].
+

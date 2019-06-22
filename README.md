@@ -14,4 +14,5 @@ data contains two columns source and destination eac edge in graph
 - 𝐴(𝑥,𝑦)=∑𝑢∈𝑁(𝑥)∩𝑁(𝑦)[1/𝑙𝑜𝑔(|𝑁(𝑢)|)]
 - Katz centrality computes the centrality for a node based on the centrality of its neighbors. It is a generalization of the eigenvector centrality. 
 - The Katz centrality for node i is 𝑥𝑖=𝛼∑𝑗[𝐴𝑖𝑗𝑥𝑗+𝛽], Controls the centrality with 𝛼<[1/𝜆𝑚𝑎𝑥].
+- Weight Features 𝑊=1/SQRT[1+|𝑋|]
 
